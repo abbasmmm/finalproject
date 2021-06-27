@@ -1,0 +1,14 @@
+create table trade_input_details(
+TradeId text Primary key,
+ExcersieDate DATE,
+BusinessDate DATE,
+MaturityDate DATE,
+TimeToMaturity INT,
+SimulationDate DATE,
+ModelType text,
+ModelName text,
+StrikePrice Double,
+CallPut text,
+BuySell text,
+Spread int,
+InitialIndexLevel float)
